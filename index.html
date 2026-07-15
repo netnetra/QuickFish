@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Salmon Fishing</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="game-shell">
+      <header class="hud">
+        <div>
+          <h1>Salmon Fishing</h1>
+          <p>Use the arrow keys to move the hook and catch salmon.</p>
+        </div>
+        <div class="score-card">
+          <span>Score</span>
+          <strong id="score">0</strong>
+        </div>
+      </header>
+
+      <section class="game-area" id="game-area">
+        <div class="sky"></div>
+        <div class="pond" id="pond">
+          <div class="boat">
+            <div class="boat-body"></div>
+            <div class="mast"></div>
+            <div class="rope"></div>
+          </div>
+
+          <div class="line" id="line"></div>
+          <div class="hook" id="hook"></div>
+          <div class="fish-layer" id="fish-layer"></div>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
